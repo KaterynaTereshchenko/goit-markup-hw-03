@@ -95,6 +95,13 @@ body {
  header {
     padding-top: 20px;
  }
+
+  header .conteiner-portfolio {
+     margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
  .conteiner-primary {
      width: 1200px;
      margin-left: auto;
@@ -223,6 +230,8 @@ body {
         margin-bottom: 10px;
 }
 
+
+
 .conteiner-primary .title {
     margin: 0px;
     text-align: center;
@@ -337,25 +346,34 @@ body {
 .page-header {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+   align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .site-nav {
     display: flex;
+    margin-left: 93px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 305px;
+    padding: 0px;
 }
 
 .site-nav .nav-item {
     /*background-color: tomato;*/
     display: block;
     margin-right: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 93px;
+   
     
 }
 
 .site-nav .nav-item:last-child {
     margin-right: 0px;
+}
+
+.site-nav .nav-item:first-child {
+    margin-left: 0px;
 }
 
 .nav-link {
@@ -366,7 +384,11 @@ body {
 
 .item-contact {
     display: flex;
-    
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 .item-contact .contact-item {
@@ -454,12 +476,7 @@ body {
     text-align: center;
 }
 
-.conteiner-portfolio {
-    margin-bottom: 0px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 
-}
 
 
  /*footer*/
