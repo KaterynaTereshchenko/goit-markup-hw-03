@@ -106,7 +106,7 @@ body {
      width: 1200px;
      margin-left: auto;
      margin-right: auto;
-     outline: 3px solid tomato;
+     /*outline: 3px solid tomato;*/
      padding: 10px 10px;
      margin-bottom: 94px;
  }
@@ -483,8 +483,6 @@ body {
 }
 
 
-
-
  /*footer*/
 
  .footer {
@@ -606,7 +604,7 @@ body {
 
 }
 .conteiner-button {
-    outline: 3px solid tomato;
+    /*outline: 3px solid tomato;*/
     width: 611px;
     margin-top: 0px;
     margin-left: auto;
