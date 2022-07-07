@@ -438,13 +438,15 @@ body {
 }
 
 .exampl {
+    width: 1230px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     list-style: none;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
      .exampl-item {
@@ -462,20 +464,22 @@ body {
     align-content: space-around;
 }
 
- /*.exampl .exampl-item:last-child {
+ /*.exampl .exampl-item:last-child (3n) {
     margin-right: 0px;
 }*/
 
-.exampl-item:nth-last-child(-n+3n) {
-    /*flex-basis: calc((100%-54px)/3);*/
-    margin-right: 0px;
-    
-}
-.exampl-item:nth-child(3n) {
-    margin-bottom: 0px;
-}
+/*.exampl-item:nth-last-child(-n+3n) {
+    /*flex-basis: calc((100%-54px)/3);
+    margin-right: 0px;*/
 
-    .exampl-content {
+    .exampl-item {
+        flex-basis: calc((1230-2*30)/3);
+        margin-right: 30px;
+    }
+
+      
+
+    .exampl-item .exampl-content {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
@@ -489,7 +493,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-    .exampl-title {
+    .exampl-item .exampl-title {
   
     color: var(--main-color);
 
@@ -499,7 +503,7 @@ body {
     letter-spacing: 0.06em;
 
     width: 322px;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
     padding-left: 24px;
     padding-bottom: 4px;
     
@@ -522,7 +526,7 @@ body {
     width: 322px;
  }
 
-.portfolio-title {
+ .portfolio-title {
     margin: 0px 0px;
     text-align: center;
 }
