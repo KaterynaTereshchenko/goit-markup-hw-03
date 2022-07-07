@@ -409,34 +409,39 @@ body {
 .exampl {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    
+    align-content: center;
     list-style: none;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 20px;
 }
 
 .exampl .exampl-item {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     margin-left: 0px;
     margin-right: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    border: 1px;
+    border-bottom: var(--accent-color);
+    
+    gap: 10px;
+      
+    box-shadow: 1px 4px 6px 0px rgb(238, 238, 238, 0.16),
+            0px 4px 4px 0px rgb(238, 238, 238, 0.06), 0px 1px 1px 0px rgb(238, 238, 238, 0.12);
          
 }
-
 
 .exampl .exampl-item:last-child {
     margin-right: 0px;
 }
 
 .exampl-item {
-    flex-basis: calc((100%-54px)/9);
+    flex-basis: calc((100%-54px)/3);
     align-content: space-around;
-    
 }
 
-
+.conteiner-header
 .exampl-link .exampl-content {
     padding-left: 24px;
     
@@ -469,6 +474,7 @@ body {
  .exampl-content {
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 24px;
  }
 
 .portfolio-title {
