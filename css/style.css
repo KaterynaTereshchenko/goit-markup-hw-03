@@ -444,35 +444,24 @@ body {
 }
 
        .exampl-item {
-    width: 370px;
+    width: calc((1230-2*30)/3);
     margin-right: 30px;
+       
     margin-bottom: 30px;
     padding-bottom: 0px;
     border: 1px;
     border-bottom: var(--accent-color);
-    
-    /*gap: 30px;*/
-      
+           
     box-shadow: 1px 4px 6px 0px rgb(238, 238, 238, 0.16),
             0px 4px 4px 0px rgb(238, 238, 238, 0.06), 0px 1px 1px 0px rgb(238, 238, 238, 0.12);
     align-content: space-around;
 }
-
- /*.exampl .exampl-item:last-child (3n) {
-    margin-right: 0px;
-}*/
-
-/*.exampl-item:nth-last-child(-n+3n) {
-    /*flex-basis: calc((100%-54px)/3);
-    margin-right: 0px;*/
-
-    .exampl-item {
-        flex-basis: calc((1230-2*30)/3);
-        margin-right: 30px;
+  
+    .exampl-item:nth-child(3n) {
+        margin-right: 0px;
     }
     
-
-    .exampl-item .exampl-content {
+    .card-exampl .exampl-content {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
@@ -486,7 +475,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-    .exampl-item .exampl-title {
+    .card-exampl .exampl-title {
   
     color: var(--main-color);
 
