@@ -306,6 +306,7 @@ body {
 .section-color {
     background-color: rgba(245, 244, 250, 0.25);
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .team-title {
